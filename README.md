@@ -124,6 +124,10 @@ git checkout -b feature/my-feature
    
 We appreciate contributions that enhance performance, improve accessibility, or enhance the user experience!
 
+### 📜 License
+
+This project is licensed under the MIT License.
+
 ### 💬 Feedback
 If you have suggestions or ideas to improve this UI, feel free to open an issue or share your thoughts.
 
