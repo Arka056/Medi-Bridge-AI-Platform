@@ -33,22 +33,23 @@ The **Medi-Bridge AI Platform (Frontend)** is a fast, modern, and intuitive web 
 ---
 
 ## 📂 Project Structure  
+```bash
 frontend/
-├─ public/ # Static assets
+├─ public/
 ├─ src/
-│ ├─ assets/ # Images, icons, fonts
-│ ├─ components/ # Reusable UI components
-│ ├─ pages/ # Page-level screens
-│ ├─ hooks/ # Custom hooks
-│ ├─ context/ # Global state management
-│ ├─ services/ # API integration & utilities
-│ ├─ styles/ # Global styles & config
-│ └─ App.tsx # Main app entry
+│ ├─ assets/ 
+│ ├─ components/ 
+│ ├─ pages/ 
+│ ├─ hooks/ 
+│ ├─ context/ 
+│ ├─ services/ 
+│ ├─ styles/ 
+│ └─ App.tsx 
 ├─ package.json
 ├─ vite.config.ts
 ├─ tailwind.config.js
 └─ tsconfig.json
-
+```
 ## 🔧 Installation & Setup  
 
 ### 1️⃣ Clone the Repository  
@@ -61,8 +62,74 @@ cd Medi-Bridge-AI-Platform/frontend
 npm install
 ```
 ### 3️⃣ Environment Variables
-Create .env file: 
+Create .env file:  
 ```bash
 VITE_API_BASE_URL=http://localhost:5000/api
 VITE_AUTH_ENDPOINT=/auth
 ```
+### 4️⃣ Start Development Server
+```bash
+npm run dev
+```
+### 5️⃣ Build for Production
+```bash
+npm run build
+```
+### 6️⃣ Preview Production Build
+```bash
+npm run preview
+```
+### 🧪 Code Quality
+```bash
+npm run lint       # Check linting issues
+npm run format     # Auto-format code with Prettier
+```
+
+### 📈 Deployment
+
+This frontend is ready for cloud deployment:
+
+Vercel
+* Auto-deploy on commit to main
+* Add environment variables in the Vercel dashboard
+
+Azure Static Web App
+* Build command: npm run build
+* Output folder:
+  ```bash
+  dist
+  ```
+
+### 🎨 UI & UX Principles
+✔ Clean layout with intuitive navigation
+
+✔ Accessible color contrast & typography
+
+✔ Mobile-first design approach
+
+✔ Smooth transitions & meaningful loading states
+
+✔ Modular components for easy expansion
+
+### 🤝 Contributing
+
+1. Fork the repository
+2. Create a new branch
+```bash
+git checkout -b feature/my-feature
+```
+3. Commit your changes
+4. Push the branch
+5. Create a Pull Request
+   
+We appreciate contributions that enhance performance, improve accessibility, or enhance the user experience!
+
+### 💬 Feedback
+If you have suggestions or ideas to improve this UI, feel free to open an issue or share your thoughts.
+
+### ⭐ Support
+If you like this project, please ⭐ star the repository on GitHub — it motivates development!
+
+Thank you for exploring the **Medi-Bridge AI Platform**!
+
+Crafted with ❤️ for a **Smarter Healthcare** future.
