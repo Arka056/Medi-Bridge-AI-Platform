@@ -95,10 +95,7 @@ Vercel
 
 Azure Static Web App
 * Build command: npm run build
-* Output folder:
-  ```bash
-  dist
-  ```
+* Output folder: ```dist```
 
 ### 🎨 UI & UX Principles
 ✔ Clean layout with intuitive navigation
@@ -114,10 +111,7 @@ Azure Static Web App
 ### 🤝 Contributing
 
 1. Fork the repository
-2. Create a new branch
-```bash
-git checkout -b feature/my-feature
-```
+2. Create a new branch  ```git checkout -b feature/my-feature```
 3. Commit your changes
 4. Push the branch
 5. Create a Pull Request
